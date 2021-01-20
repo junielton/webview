@@ -1,3 +1,3 @@
 module.exports = {
-	url: "http://localhost:3000/",
+	url: "https://mail.google.com/mail/u/0/?tab=rm&ogbl&pli=1#inbox",
 };

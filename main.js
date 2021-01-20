@@ -17,7 +17,7 @@ function createWindow() {
 	});
 
 	// and load the index.html of the app.
-	win.loadFile(config.url);
+	win.loadURL(config.url);
 }
 
 function toggleDevTools() {
@@ -30,7 +30,7 @@ function toggleSearch() {
 
 function createShortCuts() {
 	globalShortcut.register("F12", toggleDevTools);
-	globalShortcut.register("CmdOrCtrl+j", toggleSearch);
+	//globalShortcut.register("CmdOrCtrl+j", toggleSearch);
 }
 
 // This method will be called when Electron has finished
